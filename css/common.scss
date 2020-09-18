@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@import './sassConfig.scss';
+
+* { @include webkit(box-sizing, border-box)}
+.color-main { color: $color-main; }
+.color-second { color: $color-second; }
+.text-main { color: #010101; }
+
+.container { width: $container; height: 100vh; margin: 0 auto; background-color: green;}
+
+// clearfix 清除浮动
+.clearfix::after {
+  content: '';
+  display: table;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix { display: inline-block; }
+*html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.pull-left { float: left; }
+.pull-right { float: right; }
+
+// header
+.logo {
+  margin: 30px 0;
+  img { display: block; }
+}
+
+// header-right
+.header-right { margin-top: 8px; }
+
+// 顶部标签
+.menu-link {
+  a, span, div { float: right; height: 22px; line-height: 22px; }
+  a { color: $text-gray; }
+  span { margin: 6px 11px 0; width: 1px; height: 12px; background-color: #cfcfcf;}
+}
+
+// 语言标签
+.lang { 
+  position: relative; padding-left: 9px; width: 53px;  background-color: #ececec; color: $text-gray;
+  i { position: absolute; top: 8px; right: 8px; width: 5px; height: 5px; border-left: 1px solid $text-gray; border-bottom: 1px solid $text-gray; @include webkit(transform, rotate(-45deg)); }
+ }
+
+.top-menu {
+  
+}
