@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="740881c4-4749-4650-b37f-438353ded8d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/normalize.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/normalize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sassConfig.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sassConfig.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iEMXZE69VMreCzOSLxj0DNnGts" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="740881c4-4749-4650-b37f-438353ded8d9" name="Default Changelist" comment="" />
+      <created>1601468337514</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601468337514</updated>
+      <workItem from="1601468338578" duration="19000" />
+      <workItem from="1601468368964" duration="538000" />
+      <workItem from="1601475930373" duration="1416000" />
+      <workItem from="1601609308789" duration="77000" />
+      <workItem from="1601609397097" duration="63000" />
+      <workItem from="1601609474148" duration="161000" />
+      <workItem from="1601609676675" duration="838000" />
+      <workItem from="1601610843216" duration="158000" />
+      <workItem from="1601611079194" duration="1917000" />
+      <workItem from="1601613334422" duration="1528000" />
+      <workItem from="1601692723296" duration="15257000" />
+      <workItem from="1601775155286" duration="15250000" />
+      <workItem from="1601862019904" duration="8341000" />
+      <workItem from="1601947011901" duration="10211000" />
+      <workItem from="1602029404338" duration="11902000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="615" y="225" key="#Web_Browsers" timestamp="1601862065330">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="615" y="225" key="#Web_Browsers/0.23.1440.877@0.23.1440.877" timestamp="1601862065330" />
+    <state x="202" y="53" key="SettingsEditor" timestamp="1601865996274">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="202" y="53" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1601865996274" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1602076982670">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1602076982670" />
+    <state x="472" y="185" width="700" height="530" key="recent.locations.popup" timestamp="1601614455290">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="472" y="185" width="700" height="530" key="recent.locations.popup/0.23.1440.877@0.23.1440.877" timestamp="1601614455290" />
+    <state x="487" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1601974399721">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="487" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1601974399721" />
+  </component>
+</project>

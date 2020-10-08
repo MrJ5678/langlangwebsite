@@ -6,33 +6,440 @@
   <title>Document</title>
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+  <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <header class="clearfix" style="background-color: orange;">
-      <!-- logo -->
-      <h1 class="logo pull-left">
-        <a href="index.html" title="langlang" target="_blank">
-          <img src="./images/logo.jpg" alt="logo">
-        </a>
-      </h1>
-      <!-- 右侧导航 -->
-      <div class="top-menu pull-right">
-        <div class="header-right">
-          <div class="menu-link clearfix">
-            <div class="lang">中文
-              <i class="arrow-down"></i>
-            </div>
-            <span></span>
-            <a href="tel:0755-86566573" title="0755-86566573">0755-86566573</a>
-            <span></span>
-            <a href="index.html" title="langlang">朗朗口腔集团官网</a>
+<div class="container">
+  <header class="clearfix">
+    <!-- logo -->
+    <h1 class="logo pull-left">
+      <a href="index.html" title="langlang" target="_blank">
+        <img src="./images/logo.jpg" alt="logo">
+      </a>
+    </h1>
+    <!-- 右侧导航 -->
+    <div class="top-menu pull-right">
+      <div class="header-right">
+        <div class="menu-link clearfix">
+          <div class="lang">中文
+            <i class="arrow-down"></i>
+            <ul>
+              <a href="">中文</a>
+              <a href="">英文</a>
+            </ul>
           </div>
+          <span></span>
+          <a href="tel:0755-86566573" title="0755-86566573">0755-86566573</a>
+          <span></span>
+          <a href="index.html" title="langlang">朗朗口腔集团官网</a>
         </div>
-        <div>导航</div>
+      </div>
+      <!-- 导航 -->
+      <nav>
+        <ul class="clearfix">
+          <li>
+            <a href="#">
+              首页
+            </a>
+          </li>
+          <li class="current">
+            <a href="#">
+              走进朗朗
+            </a>
+            <ul class="subitem">
+              <li><a href="#">走进朗朗子菜单</a></li>
+              <li><a href="#">走进朗朗子菜单</a></li>
+              <li><a href="#">走进朗朗子菜单</a></li>
+              <li>
+                <a href="#">走进朗朗子菜单</a>
+                <ul>
+                  <li><a href="#">子菜单的子菜单</a></li>
+                  <li><a href="#">子菜单的子菜单</a></li>
+                  <li><a href="#">子菜单的子菜单</a></li>
+                  <li><a href="#">子菜单的子菜单</a>
+                    <ul>
+                      <li><a href="#">子菜单的子菜单</a></li>
+                      <li><a href="#">子菜单的子菜单</a></li>
+                      <li><a href="#">子菜单的子菜单</a></li>
+                      <li><a href="#">子菜单的子菜单</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              资讯动态
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              合作伙伴
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              辅助功能
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              联系我们
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+<!-- 跑马灯 -->
+<div id="slide-wrap">
+  <div class="slide-content">
+    <ul class="clearfix">
+      <li>
+        <img src="./images/banner.jpg" alt="banner1">
+      </li>
+      <li>
+        <img src="./images/banner.jpg" alt="banner2">
+      </li>
+      <li>
+        <img src="./images/banner.jpg" alt="banner3">
+      </li>
+    </ul>
+  </div>
+  <!-- 导航圆点 -->
+  <ul class="slide-nav">
+    <a class="current" href="javascript:void(0);"></a>
+    <a href="javascript:void(0);"></a>
+    <a href="javascript:void(0);"></a>
+  </ul>
+  <!-- 导航箭头 -->
+  <span class="slide-prev">&lt;</span>
+  <span class="slide-next">&gt;</span>
+</div>
+<!-- 内容区 -->
+<div class="container">
+  <div class="main-column">
+    <h4>朗朗口腔</h4>
+    <p>
+      呵护牙齿健康 创造美好未来
+      <span></span>
+      care for teeth to create a better future
+    </p>
+  </div>
+
+  <!-- 图文并茂 -->
+  <div class="list-info">
+    <div class="list-wrap clearfix">
+      <figure>
+        <img src="./images/pic001.jpg" alt="pic001">
+        <figcaption>朗朗口腔</figcaption>
+        <p>诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello Kitty 诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello
+          Kitty诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello Kitty诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello Kitty</p>
+      </figure>
+      <figure>
+        <img src="./images/pic001.jpg" alt="pic001">
+        <figcaption>朗朗口腔</figcaption>
+        <p>诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello Kitty 诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello
+          Kitty诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello Kitty诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello Kitty</p>
+      </figure>
+      <figure>
+        <img src="./images/pic001.jpg" alt="pic001">
+        <figcaption>朗朗口腔</figcaption>
+        <p>诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello Kitty 诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello
+          Kitty诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello Kitty诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello Kitty</p>
+      </figure>
+    </div>
+    <a href="" class="more">查看更多</a>
+  </div>
+
+  <!--  第二个图文并茂的header  -->
+  <section class="campaign">
+    <header class="padding-top-55 padding-bottom-55">
+      <div class="main-column">
+        <h4>朗朗公益</h4>
+        <p>
+          呵护牙齿健康 创造美好未来
+          <span></span>
+          care for teeth to create a better future
+        </p>
       </div>
     </header>
-    
+  <!--  朗朗公益内容区  -->
+    <div class="campaign-wrap">
+      <div class="row">
+        <div class="content-flex">
+          <div class="content-flex-big">
+            <img src="./images/pic002.jpg" alt="pic002">
+          </div>
+          <div class="content-flex-small">
+            <div class="content-dec">
+              <h4 class="title">美吉姆早教义诊活动</h4>
+              <time datetime="2016-09-17">2016-09-17</time>
+              <i class="line"></i>
+              <a href="javascript:void(0)" class="link-more">
+                查看更多
+                <i class="fa fa-long-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="content-flex">
+          <div class="content-flex-big">
+            <div class="content-dec">
+              <h4 class="title">美吉姆早教义诊活动</h4>
+              <time datetime="2016-09-17">2016-09-17</time>
+              <i class="line"></i>
+              <p class="dec">在“牙齿健康从娃娃抓起”大型美吉姆公益义诊活动现场，参与活动的朗朗口腔辽宁分公司儿童口腔专家王阳有着丰富的临床治疗经验，包括儿童龋病、儿童口腔外科、儿童错颌畸形早期矫治等，囊括了儿童口腔健康的各个方面。王医生现场对孩子们进行了细致的口腔检查。</p>
+              <a href="javascript:void(0)" class="link-more">
+                查看更多
+                <i class="fa fa-long-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="content-flex-small">
+            <img src="./images/pic003.jpg" alt="pic002">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="content-flex">
+          <div class="content-flex-small">
+            <img src="./images/pic004.jpg" alt="pic002">
+          </div>
+          <div class="content-flex-big">
+            <div class="content-dec">
+              <h4 class="title">美吉姆早教义诊活动</h4>
+              <time datetime="2016-09-17">2016-09-17</time>
+              <i class="line"></i>
+              <p class="dec">在“牙齿健康从娃娃抓起”大型美吉姆公益义诊活动现场，参与活动的朗朗口腔辽宁分公司儿童口腔专家王阳有着丰富的临床治疗经验，包括儿童龋病、儿童口腔外科、儿童错颌畸形早期矫治等，囊括了儿童口腔健康的各个方面。王医生现场对孩子们进行了细致的口腔检查。</p>
+              <a href="javascript:void(0)" class="link-more">
+                查看更多
+                <i class="fa fa-long-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- 医生模块 -->
+<div class="doctor">
+  <section>
+    <div class="container">
+      <!--  swiper  -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="doctor-slide-item clearfix">
+              <div class="img">
+                <span class="name">方晓珍</span>
+                <img src="./images/pic005.jpg" alt="pic005">
+              </div>
+              <div class="content">
+                <h4 class="title">牙周主诊医师</h4>
+                <span class="dec">擅长：仿真陶瓷牙修复、牙周系统治疗、残根残冠的保存治疗等。</span>
+                <i class="line"></i>
+                <p>国内知名大学口腔医学学士，曾就职于高端私人齿科工作室，从事口腔事业10余年，对口腔各类常见疾病的临床治疗积累了丰富经验。积极学习新技术的临床应用，不断进修提升，精通牙体保存治疗。数次参加北京医科大学牙周学习研究项目、香港大学牙周学习研究项目。技术上追求完美，坚持 “微创无痛治疗” 原则，深受患者的信赖</p>
+                <a href="javascript:void(0)" class="link-more">
+                  查看更多
+                  <i class="fa fa-long-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="doctor-slide-item clearfix">
+              <div class="img">
+                <span class="name">方晓珍</span>
+                <img src="./images/pic005.jpg" alt="pic005">
+              </div>
+              <div class="content">
+                <h4 class="title">牙周主诊医师</h4>
+                <span class="dec">擅长：仿真陶瓷牙修复、牙周系统治疗、残根残冠的保存治疗等。</span>
+                <i class="line"></i>
+                <p>国内知名大学口腔医学学士，曾就职于高端私人齿科工作室，从事口腔事业10余年，对口腔各类常见疾病的临床治疗积累了丰富经验。积极学习新技术的临床应用，不断进修提升，精通牙体保存治疗。数次参加北京医科大学牙周学习研究项目、香港大学牙周学习研究项目。技术上追求完美，坚持 “微创无痛治疗” 原则，深受患者的信赖</p>
+                <a href="javascript:void(0)" class="link-more">
+                  查看更多
+                  <i class="fa fa-long-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+<!--        &lt;!&ndash; 如果需要导航按钮 &ndash;&gt;-->
+<!--        <div class="swiper-button-prev"></div>-->
+<!--        <div class="swiper-button-next"></div>-->
+      </div>
+      <!-- 如果需要分页器 -->
+      <div class="pagination-container">
+        <div class="swiper-pagination doctor-swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- 资讯动态 -->
+<div class="news">
+  <section>
+    <div class="container">
+      <header>
+        <div class="main-column">
+          <h4>资讯动态</h4>
+          <p>
+            呵护牙齿健康 创造美好未来
+            <span></span>
+            care for teeth to create a better future
+          </p>
+        </div>
+      </header>
+      <!--   选项卡   -->
+      <ul class="tab-menu">
+        <a href="javascript:void(0)" title="行业动态" class="current">行业动态</a>
+        <a href="javascript:void(0)" title="朗朗资讯">朗朗资讯</a>
+        <a href="javascript:void(0)" title="媒体报道">媒体报道</a>
+        <a href="javascript:void(0)" title="公益活动">公益活动</a>
+      </ul>
+      <!--   新闻展示   -->
+      <div class="news-wrap">
+        <div class="item">
+          <div class="img-wrap">
+            <img src="./images/pic006.jpg" alt="pic006">
+          </div>
+          <h4 class="title">朗朗口腔“合赢未来，与资本共朗朗口腔“合赢未来，与资本共朗朗口腔“合赢未来，与资本共</h4>
+          <time datetime="2016-09-27" pubtime="2016-09-27">2016-09-27</time>
+          <i class="line"></i>
+          <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站</p>
+          <a href="javascript:void(0)" class="link-more">
+            查看更多
+            <i class="fa fa-long-arrow-right"></i>
+          </a>
+        </div>
+        <div class="item">
+          <div class="img-wrap">
+            <img src="./images/pic006.jpg" alt="pic006">
+          </div>
+          <h4 class="title">朗朗口腔“合赢未来，与资本共</h4>
+          <time datetime="2016-09-27" pubtime="2016-09-27">2016-09-27</time>
+          <i class="line"></i>
+          <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
+          <a href="javascript:void(0)" class="link-more">
+            查看更多
+            <i class="fa fa-long-arrow-right"></i>
+          </a>
+        </div>
+        <div class="item">
+          <div class="img-wrap">
+            <img src="./images/pic006.jpg" alt="pic006">
+          </div>
+          <h4 class="title">朗朗口腔“合赢未来，与资本共</h4>
+          <time datetime="2016-09-27" pubtime="2016-09-27">2016-09-27</time>
+          <i class="line"></i>
+          <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
+          <a href="javascript:void(0)" class="link-more">
+            查看更多
+            <i class="fa fa-long-arrow-right"></i>
+          </a>
+        </div>
+        <div class="item">
+          <div class="img-wrap">
+            <img src="./images/pic006.jpg" alt="pic006">
+          </div>
+          <h4 class="title">朗朗口腔“合赢未来，与资本共</h4>
+          <time datetime="2016-09-27" pubtime="2016-09-27">2016-09-27</time>
+          <i class="line"></i>
+          <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
+          <a href="javascript:void(0)" class="link-more">
+            查看更多
+            <i class="fa fa-long-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- 底部 -->
+<footer>
+  <div class="container">
+    <div class="clearfix">
+      <div class="pull-left">
+        <address class="footer-contact-info">
+          <h5>朗朗医疗投资有限公司</h5>
+          <p>集团总部热线 : <a href="tel:4000-890-608" title="4000-890-608">4000-890-608</a></p>
+          <p>集团总部地址：广东省深圳市南山区高新南一道3号富诚大厦三楼</p>
+        </address>
+        <ul class="share clearfix">
+          <a href="#">
+            <i class="fa fa-weixin"></i>
+            <p>
+              <img src="./images/code.png" alt="code">
+            </p>
+          </a>
+          <a href="#">
+            <p>
+              <img src="./images/code.png" alt="code">
+            </p>
+            <i class="fa fa-weibo"></i>
+          </a>
+        </ul>
+      </div>
+      <div class="pull-right">
+        <ul class="footer-menu clearfix">
+          <dl>
+            <dt>走进朗朗</dt>
+            <dd>朗朗简介</dd>
+            <dd>朗朗优势</dd>
+            <dd>企业荣誉</dd>
+            <dd>团队风采</dd>
+          </dl>
+          <dl>
+            <dt>资讯动态</dt>
+            <dd>行业动态</dd>
+            <dd>朗朗资讯</dd>
+            <dd>媒体报道</dd>
+            <dd>公益活动</dd>
+          </dl>
+          <dl>
+            <dt>合作伙伴</dt>
+            <dd>门诊列表</dd>
+            <dd>门诊详情</dd>
+            <dd>交通指引</dd>
+          </dl>
+          <dl>
+            <dt>辅助功能</dt>
+            <dd>公众号指引</dd>
+            <dd>交通指南</dd>
+            <dd>在线客服</dd>
+            <dd>一键拨号</dd>
+          </dl>
+          <dl>
+            <dt>联系我们</dt>
+            <dd>联系我们</dd>
+            <dd>加入我们</dd>
+            <dd>在线留言</dd>
+          </dl>
+          <dl>
+            <div class="wxgz">
+              <img src="./images/code-wxgz.png" alt="code-wxgz">
+              <p>微信公众号</p>
+            </div>
+          </dl>
+        </ul>
+      </div>
+    </div>
+    <div id="copyright">
+      © 2005 - 2016 朗朗口腔医疗投资有限公司 版权所有 粤ICP备08130115号-1
+    </div>
   </div>
+</footer>
+<!-- banner脚本  -->
+<script src="./js/banner.js"></script>
+<script src="./js/swiper.min.js"></script>
+<script src="./js/doctorSwiper.js"></script>
 </body>
 </html>

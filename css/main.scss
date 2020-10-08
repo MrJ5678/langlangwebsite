@@ -1,0 +1,369 @@
+@charset "UTF-8";
+@import './sassConfig.scss';
+
+#slide-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.slide-content {
+  position: relative;
+  left: 0;
+  @include webkit(transition, all 1s ease 0s);
+
+  li {
+    float: left;
+
+    img {
+      width: 100%;
+      vertical-align: middle
+    }
+  }
+}
+
+.slide-nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+  z-index: 2;
+  text-align: center;
+  font-size: 0;
+
+  a {
+    display: inline-block;
+    width: 8px;
+    height: 3px;
+    margin: 0 3px;
+    background-color: #fff;
+    opacity: .5;
+    filter: alpha(opacity=50);
+
+    &.current {
+      opacity: 1;
+      filter: alpha(opacity=100);
+    }
+  }
+}
+
+.slide-prev, .slide-next {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  top: 50%;
+  left: 0;
+  margin-top: -25px;
+  background-color: rgba(255, 255, 255, .5);
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.slide-prev {
+  left: 20px;
+}
+
+.slide-next {
+  left: auto;
+  right: 20px;
+}
+
+/* 朗朗公益 */
+.campaign {
+  margin-bottom: 90px;
+
+  header {
+    background-color: #eaeaea;
+
+    .main-column {
+      margin-top: 0;
+
+      h4 {
+        margin-bottom: 20px;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+}
+
+// 定义padding工具类
+@for $i from 1 through 20 {
+  .padding-top-#{$i * 5} {
+    padding-top: (5px * $i);
+  }
+  .padding-bottom-#{$i * 5} {
+    padding-bottom: (5px * $i);
+  }
+}
+
+// 朗朗公益内容区
+/*
+.campaign-wrap {
+  .row {
+    float: left;
+    width: 33.3%;
+
+    .content-big {
+      height: 380px;
+    }
+
+    &:nth-of-type(1) {
+      background-color: #eae9e4;
+    }
+
+    &:nth-of-type(3) {
+      color: #f6f6f6;
+      background-color: #e03854;
+
+      time {
+        color: #f09ba9;
+      }
+
+      .line {
+        border-top-color: #e66076;
+      }
+
+      .link-more {
+        color: #f9d6dc;
+        border-color: #f3afbb;
+      }
+    }
+
+    .content-small {
+      height: 190px;
+    }
+
+    &:first-of-type {
+      .content-dec {
+        padding: 40px 40px 26px;
+      }
+    }
+  }
+
+  .content-dec {
+    padding: 56px 42px;
+
+    .title {
+      font-size: 24px;
+    }
+
+    time {
+      display: block;
+      padding: 14px 0 20px;
+      opacity: .5;
+      filter: alpha(opacity=50);
+    }
+
+    .line {
+      display: block;
+      width: 38px;
+      border-top: 1px solid #ccc;
+    }
+
+    .dec {
+      margin-top: 23px;
+      line-height: 24px;
+    }
+
+    .link-more {
+      margin-top: 18px;
+    }
+  }
+}*/
+
+// flex写朗朗公益
+.campaign-wrap {
+  display: flex;
+
+  .row {
+    flex: 1;
+
+    .content-flex {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+
+      .content-flex-big {
+        flex: 2;
+
+        img {
+          vertical-align: middle;
+        }
+      }
+
+      .content-flex-small {
+        flex: 1;
+
+        img {
+          vertical-align: middle;
+        }
+      }
+
+      &:first-of-type {
+        .content-dec {
+          padding: 40px 40px 26px;
+        }
+      }
+    }
+
+    .content-dec {
+      padding: 56px 42px;
+
+      .title {
+        font-size: 24px;
+      }
+
+      time {
+        display: block;
+        padding: 14px 0 20px;
+        opacity: .5;
+        filter: alpha(opacity=50);
+      }
+
+      .line {
+        display: block;
+        width: 38px;
+        border-top: 1px solid #ccc;
+      }
+
+      .dec {
+        margin-top: 23px;
+        line-height: 24px;
+      }
+
+      .link-more {
+        margin-top: 18px;
+      }
+    }
+
+    &:nth-of-type(1) {
+      .content-flex-small {
+        background-color: #eae9e4;
+      }
+    }
+
+    &:nth-of-type(3) {
+      .content-flex-big {
+        color: #f6f6f6;
+        background-color: #e03854;
+
+        time {
+          color: #f09ba9;
+        }
+
+        .line {
+          border-top-color: #e66076;
+        }
+
+        .link-more {
+          color: #f9d6dc;
+          border-color: #f3afbb;
+        }
+      }
+    }
+  }
+}
+
+// doctor 模块
+.doctor {
+  padding: 90px 0 50px;
+  background-color: #f6f6f6;
+
+  .img {
+    float: left;
+    position: relative;
+
+    .name {
+      position: absolute;
+      width: 100px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      font-size: 18px;
+      top: 50%;
+      right: 0;
+      margin-top: -25px;
+      background-color: #000;
+      color: #fff;
+      opacity: .5;
+      z-index: 2;
+    }
+  }
+
+  .content {
+    margin-left: 565px;
+
+    .title {
+      font-size: 18px;
+      line-height: 48px;
+      font-weight: bold;
+    }
+
+    .dec {
+      display: block;
+      margin-bottom: 19px;
+      color: #a0a0a0;
+    }
+
+    .line {
+      display: block;
+      width: 38px;
+      margin-bottom: 25px;
+      border-top: 1px solid #c5c5c5;
+    }
+
+    p {
+      line-height: 22px;
+      color: #a0a0a0;
+      font-weight: bold;
+    }
+
+    .link-more {
+      margin-top: 25px;
+      border: none;
+      text-align: left;
+    }
+  }
+  .pagination-container {
+    position: relative;
+    height: 50px;
+    // swiper圆点导航
+    .swiper-pagination {
+      top: 120%;
+      left: 50%;
+      @include webkit(transform, translateX(-50%));
+
+      span {
+        margin: 0 3px;
+      }
+
+      .swiper-pagination-bullet {
+        width: 8px;
+        height: 3px;
+        background-color: #a0a0a0;
+        border-radius: 0;
+        opacity: 1;
+        filter: alpha(opacity = 100);
+      }
+      
+      .swiper-pagination-bullet-active {
+        background-color: #000;
+      }
+    }
+  }
+}
+
+.news {
+  p {
+    margin-bottom: 0;
+  }
+
+  .news-tab-menu {
+    margin-top: 40px;
+    text-align: center;
+  }
+}

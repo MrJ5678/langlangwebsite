@@ -18,3 +18,11 @@ $container: 1200px;
   -o-#{$type}: $value;
   #{$type}: $value;
 }
+
+// 文本超出 省略号表示
+@mixin ell($number) {
+  display: -webkit-box;
+  -webkit-line-clamp: $number;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
